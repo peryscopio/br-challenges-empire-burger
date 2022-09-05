@@ -1,0 +1,81 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato';
+  font-style: normal;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+}
+
+.font1 {
+  font-family: 'Lato';
+
+}
+
+.topbar {
+  background: rgba(59, 32, 11, 0.05);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar .logo {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 29.3813px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: rgba(29, 6, 5, 0.9);
+}
+
+.topbar .left {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url('/img/i5.png');
+  width: 100%;
+  height: 545px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+.img-zap {
+  padding: 0 8px 0 2px;
+}
+
+.btn-contato {
+  background: #F59A1B;
+  border-radius: 4px;
+  padding: 8px;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato';
+  font-weight: bold;
+}
+
+.btn-contato:hover {
+  background: #F59A1B88;
+}
+
+.title-black {
+  color: #34201F;
+  font-size: 16px;
+}
